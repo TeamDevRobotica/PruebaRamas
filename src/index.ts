@@ -7,7 +7,6 @@ import * as cors from 'cors';
 import { useExpressServer } from "routing-controllers";
 import { Request, Response } from "express";
 
-
 // creates express app, registers all controller routes and returns you express app instance
 let express = require("express"); // or you can import it if you have installed typings
 let app = express();
